@@ -1,7 +1,7 @@
 import telebot
 from sqlighter import SQLighter
 
-bot = telebot.TeleBot("1657096594:AAFcJqm22RDjIeh1RAvhgnpa4WiaJFL7NQc")
+bot = telebot.TeleBot(str(os.environ.get('BOT_TOKEN')))
 from telebot import types  # кнопки
 
 
