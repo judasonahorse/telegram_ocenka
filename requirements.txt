@@ -1,0 +1,8 @@
+aiohttp
+websockets
+chardet
+fake_useragent 
+requests
+pytelegrambotapi
+gunicorn
+
